@@ -1,0 +1,244 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>NFL Scores</title>
+        <style>
+            body { 
+                font-family: Arial, sans-serif; 
+                max-width: 800px; 
+                margin: 0 auto; 
+                padding: 20px; 
+                background-color: #f4f4f4;
+            }
+            .game-container {
+                background-color: white;
+                border-radius: 8px;
+                margin-bottom: 10px;
+                padding: 15px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+            .game-status {
+                font-weight: bold;
+                color: #666;
+                margin-bottom: 10px;
+                display: block;
+            }
+            .team {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            .team-logo {
+                width: 50px;
+                height: 50px;
+                margin-right: 10px;
+            }
+            .team-name {
+                margin-right: 10px;
+                flex-grow: 1;
+            }
+            .score {
+                font-weight: bold;
+                font-size: 1.2em;
+            }
+            .last-updated {
+                text-align: center;
+                color: #888;
+                margin-top: 20px;
+                font-size: 0.8em;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>NFL Scores</h1>
+    
+            <div class="game-container">
+                <span class="game-status">Final</span>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png" alt="Steelers logo" class="team-logo">
+                    <span class="team-name">Steelers</span>
+                    <span class="score">19</span>
+                </div>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png" alt="Browns logo" class="team-logo">
+                    <span class="team-name">Browns</span>
+                    <span class="score">24</span>
+                </div>
+            </div>
+            
+            <div class="game-container">
+                <span class="game-status">Final/OT</span>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png" alt="Vikings logo" class="team-logo">
+                    <span class="team-name">Vikings</span>
+                    <span class="score">30</span>
+                </div>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png" alt="Bears logo" class="team-logo">
+                    <span class="team-name">Bears</span>
+                    <span class="score">27</span>
+                </div>
+            </div>
+            
+            <div class="game-container">
+                <span class="game-status">Final</span>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png" alt="Lions logo" class="team-logo">
+                    <span class="team-name">Lions</span>
+                    <span class="score">24</span>
+                </div>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png" alt="Colts logo" class="team-logo">
+                    <span class="team-name">Colts</span>
+                    <span class="score">6</span>
+                </div>
+            </div>
+            
+            <div class="game-container">
+                <span class="game-status">Final</span>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png" alt="Patriots logo" class="team-logo">
+                    <span class="team-name">Patriots</span>
+                    <span class="score">15</span>
+                </div>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png" alt="Dolphins logo" class="team-logo">
+                    <span class="team-name">Dolphins</span>
+                    <span class="score">34</span>
+                </div>
+            </div>
+            
+            <div class="game-container">
+                <span class="game-status">Final</span>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png" alt="Buccaneers logo" class="team-logo">
+                    <span class="team-name">Buccaneers</span>
+                    <span class="score">30</span>
+                </div>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png" alt="Giants logo" class="team-logo">
+                    <span class="team-name">Giants</span>
+                    <span class="score">7</span>
+                </div>
+            </div>
+            
+            <div class="game-container">
+                <span class="game-status">Final</span>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png" alt="Cowboys logo" class="team-logo">
+                    <span class="team-name">Cowboys</span>
+                    <span class="score">34</span>
+                </div>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png" alt="Commanders logo" class="team-logo">
+                    <span class="team-name">Commanders</span>
+                    <span class="score">26</span>
+                </div>
+            </div>
+            
+            <div class="game-container">
+                <span class="game-status">Final</span>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png" alt="Chiefs logo" class="team-logo">
+                    <span class="team-name">Chiefs</span>
+                    <span class="score">30</span>
+                </div>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png" alt="Panthers logo" class="team-logo">
+                    <span class="team-name">Panthers</span>
+                    <span class="score">27</span>
+                </div>
+            </div>
+            
+            <div class="game-container">
+                <span class="game-status">Final</span>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png" alt="Titans logo" class="team-logo">
+                    <span class="team-name">Titans</span>
+                    <span class="score">32</span>
+                </div>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png" alt="Texans logo" class="team-logo">
+                    <span class="team-name">Texans</span>
+                    <span class="score">27</span>
+                </div>
+            </div>
+            
+            <div class="game-container">
+                <span class="game-status">Final</span>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png" alt="Broncos logo" class="team-logo">
+                    <span class="team-name">Broncos</span>
+                    <span class="score">29</span>
+                </div>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png" alt="Raiders logo" class="team-logo">
+                    <span class="team-name">Raiders</span>
+                    <span class="score">19</span>
+                </div>
+            </div>
+            
+            <div class="game-container">
+                <span class="game-status">Final</span>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png" alt="49ers logo" class="team-logo">
+                    <span class="team-name">49ers</span>
+                    <span class="score">10</span>
+                </div>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png" alt="Packers logo" class="team-logo">
+                    <span class="team-name">Packers</span>
+                    <span class="score">38</span>
+                </div>
+            </div>
+            
+            <div class="game-container">
+                <span class="game-status">Final</span>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png" alt="Cardinals logo" class="team-logo">
+                    <span class="team-name">Cardinals</span>
+                    <span class="score">6</span>
+                </div>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png" alt="Seahawks logo" class="team-logo">
+                    <span class="team-name">Seahawks</span>
+                    <span class="score">16</span>
+                </div>
+            </div>
+            
+            <div class="game-container">
+                <span class="game-status">Final</span>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png" alt="Eagles logo" class="team-logo">
+                    <span class="team-name">Eagles</span>
+                    <span class="score">37</span>
+                </div>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png" alt="Rams logo" class="team-logo">
+                    <span class="team-name">Rams</span>
+                    <span class="score">20</span>
+                </div>
+            </div>
+            
+            <div class="game-container">
+                <span class="game-status">Final</span>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png" alt="Ravens logo" class="team-logo">
+                    <span class="team-name">Ravens</span>
+                    <span class="score">30</span>
+                </div>
+                <div class="team">
+                    <img src="https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png" alt="Chargers logo" class="team-logo">
+                    <span class="team-name">Chargers</span>
+                    <span class="score">23</span>
+                </div>
+            </div>
+            
+        <div class="last-updated">
+            Last Updated: 2024-11-27 01:06:46 UTC
+        </div>
+    </body>
+    </html>
+    
